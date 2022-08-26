@@ -124,7 +124,7 @@ export abstract class OidcStore {
     },
     oidcAccesstoken: (state: OidcStoreState) => {
       return state.user?.access_token
-        ? OidcHelpers.TokenIsExpired(state.User.access_token)
+        ? OidcHelpers.TokenIsExpired(state.user.access_token)
           ? null
           : state.access_token
         : null;
