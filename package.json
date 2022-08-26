@@ -1,5 +1,5 @@
 {
-  "name": "vue-store-oidc",
+  "name": "@lordofcinder2000/vue-store-oidc",
   "version": "0.5.10-beta1",
   "files": [
     "dist/store-oidc.d.ts",
